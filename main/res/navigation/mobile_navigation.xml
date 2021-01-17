@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.news.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sukien"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Sự kiện"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/su-kien"/>
+        <argument
+            android:name="subcat"
+            android:defaultValue=""/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_xahoi"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Xã hội"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/xa-hoi"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_thegoi"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Thế giới"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/the-gioi"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_thethao"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Thể thao"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/the-thao"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_vieclam"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Việc làm"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/viec-lam"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_suckhoe"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Sức khoẻ"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/suc-khoe"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_nhanai"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Nhân ái"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/tam-long-nhan-ai"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_kinhdoanh"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Kinh doanh"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/kinh-doanh"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_batdongsan"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Bất động sản"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/bat-dong-san"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_xe"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Xe++"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/o-to-xe-may"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sucmanhso"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Sức mạnh số"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/suc-manh-so"/>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_giaoduc"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Giáo dục"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/giao-duc-huong-nghiep"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_vanhoa"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Văn hoá"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/van-hoa"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_giaitri"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Giải trí"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/giai-tri"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dulich"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Du lịch"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/du-lich"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_phapluat"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Pháp luật"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/phap-luat"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_nhipsongtre"
+        android:name="com.example.news.CategoriesFragment"
+        android:label="Nhịp sống trẻ"
+        tools:layout="@layout/fragment_categories">
+        <argument
+            android:name="url"
+            android:defaultValue="https://dantri.com.vn/nhip-song-tre"/>
+    </fragment>
+
+</navigation>

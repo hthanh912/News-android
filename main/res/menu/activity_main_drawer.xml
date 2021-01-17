@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang chủ" />
+
+        <item
+            android:id="@+id/nav_sukien"
+            android:title="Sự kiện" />
+
+        <item
+            android:id="@+id/nav_xahoi"
+            android:title="Xã hội" />
+
+        <item
+            android:id="@+id/nav_thegoi"
+            android:title="Thế giới" />
+
+        <item
+            android:id="@+id/nav_thethao"
+            android:title="Thể thao" />
+
+        <item
+            android:id="@+id/nav_vieclam"
+            android:title="Việc làm" />
+
+        <item
+            android:id="@+id/nav_suckhoe"
+            android:title="Sức khoẻ" />
+
+        <item
+            android:id="@+id/nav_nhanai"
+            android:title="Nhân ái" />
+
+        <item
+            android:id="@+id/nav_kinhdoanh"
+            android:title="Kinh doanh" />
+
+        <item
+            android:id="@+id/nav_batdongsan"
+            android:title="Bất động sản" />
+
+        <item
+            android:id="@+id/nav_xe"
+            android:title="Xe++" />
+
+        <item
+            android:id="@+id/nav_sucmanhso"
+            android:title="Sức mạnh số" />
+
+        <item
+            android:id="@+id/nav_giaoduc"
+            android:title="Giáo dục" />
+
+        <item
+            android:id="@+id/nav_vanhoa"
+            android:title="Văn hoá" />
+
+        <item
+            android:id="@+id/nav_giaitri"
+            android:title="Giải trí" />
+
+        <item
+            android:id="@+id/nav_dulich"
+            android:title="Du lịch" />
+
+        <item
+            android:id="@+id/nav_phapluat"
+            android:title="Pháp luật" />
+
+        <item
+            android:id="@+id/nav_nhipsongtre"
+            android:title="Nhịp Sống trẻ" />
+
+
+    </group>
+</menu>
